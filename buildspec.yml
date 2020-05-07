@@ -6,6 +6,8 @@ phases:
   install:
     commands:
       - BBB="123"
+  pre_build:
+    - aws --version
   build:
     commands:
       - echo $AAA
