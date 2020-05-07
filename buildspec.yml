@@ -1,0 +1,14 @@
+version: 0.2
+env:
+  variables:
+    AAA: "bbbbb"
+phase:
+  p1:
+    commands:
+      - echo $AAA
+      - BBB="123"
+      - echo $BBB
+  p2:
+    commands:
+      - echo $AAA
+      - echo $BBB
