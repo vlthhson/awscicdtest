@@ -3,12 +3,11 @@ env:
   variables:
     AAA: "bbbbb"
 phase:
-  p1:
+  install:
     commands:
-      - echo $AAA
       - BBB="123"
-      - echo $BBB
-  p2:
+  build:
     commands:
       - echo $AAA
       - echo $BBB
+      - echo "end"
