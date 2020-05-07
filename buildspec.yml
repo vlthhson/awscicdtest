@@ -2,7 +2,7 @@ version: 0.2
 env:
   variables:
     AAA: "bbbbb"
-phase:
+phases:
   install:
     commands:
       - BBB="123"
